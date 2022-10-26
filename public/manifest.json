@@ -1,0 +1,15 @@
+{
+  "short_name": "Portfólio - R.A",
+  "name": "Portfólio - Róger Aguiar",
+  "icons": [
+    {
+      "src": "icon.jpg",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#69ff44",
+  "background_color": "#242424"
+}
