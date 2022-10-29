@@ -1,15 +1,30 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  height: 80px;
+  height: 90px;
   width: 100vw;
   max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-grey-0);
-  color: var(--color-primary);
+  background-color: var(--color-grey-5);
+  color: var(--color-grey-0);
   box-shadow: 0 5px 15px 0 var(--color-primary);
+`;
+
+export const Logo = styled.div`
+  padding: 1px 3px;
+  height: 38px;
+  width: 42px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-radius: 4px;
+  background-color: var(--color-brand);
+  color: var(--color-grey-5);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: default;
 `;
 
 export const Content = styled.div`
@@ -18,19 +33,58 @@ export const Content = styled.div`
   max-width: 1000px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 45px;
   font-family: var(--font-family-title);
-
-  & > h1 {
-    font-size: var(--title-size-1);
-  }
 `;
 
 export const Navigation = styled.nav`
-  font-size: var(--text-size-1);
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-grey-1);
+  font-size: var(--text-size-2);
+  font-weight: 600;
 
   & > ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
+  }
+
+  & a {
+    transition: 0.4s;
+  }
+
+  & a:hover {
+    color: var(--color-brand);
+    transition: 0.4s;
+  }
+
+  & a:hover svg {
+    fill: var(--color-brand);
+    transition: 0.4s;
+  }
+`;
+
+export const Links = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 15px;
+`;
+
+export const LinkButton = styled.div`
+  display: flex;
+  align-items: center;
+
+  & svg {
+    fill: var(--color-grey-1);
+  }
+
+  & > a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-grey-1);
+    text-decoration: none;
   }
 `;

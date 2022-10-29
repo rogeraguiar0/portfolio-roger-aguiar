@@ -1,10 +1,20 @@
-import { Container, Content, Navigation } from "./style";
+import {
+  Container,
+  Logo,
+  Content,
+  Navigation,
+  Links,
+  LinkButton,
+} from "./style";
+
+import { VscGithub } from "react-icons/vsc";
+import { SiLinkedin } from "react-icons/si";
 
 const Header = () => {
   return (
     <Container>
       <Content>
-        <h1>R. Aguiar</h1>
+        <Logo>RA</Logo>
         <Navigation>
           <ul>
             <li>
@@ -23,6 +33,28 @@ const Header = () => {
               </a>
             </li>
           </ul>
+          <Links>
+            <LinkButton>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/rógeraguiar/"
+              >
+                <SiLinkedin />
+                LinkedIn
+              </a>
+            </LinkButton>
+            <LinkButton>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/rogeraguiar0"
+              >
+                <VscGithub />
+                GitHub
+              </a>
+            </LinkButton>
+          </Links>
         </Navigation>
       </Content>
     </Container>

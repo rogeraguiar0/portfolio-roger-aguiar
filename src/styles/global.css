@@ -1,13 +1,14 @@
 :root {
-  --color-primary: #69ff44;
-  --color-primary-op: #69ff448e;
-  --color-primary-focus: #beffae;
+  --color-brand: #0074c3;
+  --color-brand-op: #0074c38e;
+  --color-brand-fc: #77beec;
 
-  --color-grey-0: #242424;
-  --color-grey-1: #4f4f4f;
-  --color-grey-2: #7b7b7b;
-  --color-grey-3: #a7a7a7;
-  --color-grey-4: #faf8ff;
+  --color-grey-0: #181818;
+  --color-grey-1: #484949;
+  --color-grey-2: #a5a7a8;
+  --color-grey-3: #cacecf;
+  --color-grey-4: #e6e9ea;
+  --color-grey-5: #f0f4f5;
 
   --font-family-title: "Inter", sans-serif;
   --font-family-text: "Montserrat", sans-serif;
