@@ -19,4 +19,5 @@ Links de referência:
 
 - <a href="https://styled-components.com/docs/basics" target="_blank" >Styled-Components</a>
 - <a href="https://react-icons.github.io/react-icons" target="_blank" >React-Icons</a>
-- <a href="https://www.flaticon.com/free-icons/folder" title="folder icons">Favicon</a>
+- <a href="https://www.flaticon.com/free-icons/folder" target="_blank" title="folder icons">Favicon</a>
+- <a href="https://storyset.com/work">Ilustração</a>
