@@ -11,11 +11,12 @@
 
 <br/>
 
-<p>Aplicação desenvolvida utilizando <strong>Typescript</strong>, <strong>React.js</strong> e a biblioteca <strong>Styled-Components</strong>.</p>
+<p>Aplicação desenvolvida utilizando <strong>Typescript</strong>, <strong>React.js</strong> e as bibliotecas <strong>Styled-Components</strong> e <strong>React-Icons</strong>.</p>
 
 <br/>
 
 Links de referência:
 
 - <a href="https://styled-components.com/docs/basics" target="_blank" >Styled-Components</a>
+- <a href="https://react-icons.github.io/react-icons" target="_blank" >React-Icons</a>
 - <a href="https://www.flaticon.com/free-icons/folder" title="folder icons">Favicon</a>
