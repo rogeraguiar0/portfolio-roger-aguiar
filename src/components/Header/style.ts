@@ -9,7 +9,7 @@ export const Container = styled.header`
   justify-content: center;
   background-color: var(--color-grey-5);
   color: var(--color-grey-0);
-  box-shadow: 0 5px 15px 0 var(--color-primary);
+  box-shadow: 0 0 15px 0 var(--color-grey-1);
 `;
 
 export const Logo = styled.div`
