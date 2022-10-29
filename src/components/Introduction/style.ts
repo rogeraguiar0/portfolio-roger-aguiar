@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Container = styled.section`
   height: calc(100vh - 90px);
   width: 100%;
+  position: relative;
+  z-index: 0;
   display: flex;
   align-items: center;
   justify-content: center;
