@@ -1,10 +1,10 @@
-import { Container, Content, Navigation } from "./style";
+import { Container, Logo, Content, Navigation } from "./style";
 
 const Header = () => {
   return (
     <Container>
       <Content>
-        <h1>R. Aguiar</h1>
+        <Logo>RA</Logo>
         <Navigation>
           <ul>
             <li>
