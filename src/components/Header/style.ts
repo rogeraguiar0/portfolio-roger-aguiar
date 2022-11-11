@@ -21,11 +21,10 @@ export const Logo = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  border-radius: 4px;
   background-color: var(--color-brand);
   color: var(--color-grey-5);
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 500;
   cursor: default;
 `;
 
@@ -54,6 +53,10 @@ export const Navigation = styled.nav`
   }
 
   & a {
+    transition: 0.4s;
+  }
+
+  & svg {
     transition: 0.4s;
   }
 
