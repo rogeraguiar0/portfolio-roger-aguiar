@@ -10,7 +10,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
   border: 2px solid transparent;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: var(--color-grey-4);
   transition: 0.4s;
 
@@ -47,6 +47,7 @@ export const Container = styled.div`
     top: 10px;
     right: 10px;
     fill: var(--color-grey-1);
+    transition: 0.4s;
   }
 
   &:hover {
@@ -61,5 +62,6 @@ export const Container = styled.div`
 
   &:hover > svg {
     fill: var(--color-brand);
+    transition: 0.4s;
   }
 `;
