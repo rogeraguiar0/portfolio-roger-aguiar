@@ -16,7 +16,7 @@ const Projects = () => {
     {
       name: "JoBroLand",
       description:
-        "Após os dois primeiros meses de estudo, desenvolvi um e-commerce com a temática de JoJo Bizarre Adventure!",
+        "Após os dois primeiros meses de estudo, desenvolvi um e-commerce com a temática de JoJo Bizarre Adventure.",
       repo: "https://github.com/rogeraguiar0/Projeto-JoBroLand",
       pages: "https://rogeraguiar0.github.io/Projeto-JoBroLand/",
       icon: <AiOutlineStar />,
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       name: "Jogo da memória",
       description:
-        "Na matéria de Deenvolvimento em JavaScript da faculdade, construí um jogo da memória com animações 3D e alguns pequenos algortimos! A temática foi: Hora de Aventura.",
+        "Na matéria de Deenvolvimento em JavaScript da faculdade, construí um jogo da memória com animações 3D e alguns pequenos algortimos. A temática foi: Hora de Aventura.",
       repo: "https://github.com/rogeraguiar0/Jogo-da-memoria",
       pages: "https://rogeraguiar0.github.io/Jogo-da-memoria/",
       icon: <GiCardExchange />,
